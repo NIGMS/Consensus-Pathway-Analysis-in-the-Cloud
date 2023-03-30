@@ -1,0 +1,18 @@
+[
+	{
+        "question": "What does an upregulated gene represent?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "A gene that is expressed more in the diseased group than the control",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "A gene that is expressed more in the control group than the diseased",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]

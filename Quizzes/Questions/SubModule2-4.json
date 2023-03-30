@@ -1,0 +1,18 @@
+[
+	{
+        "question": "Which p-value should be use from the DeSeq output?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "padj",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "pvalue",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
