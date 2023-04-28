@@ -1,11 +1,13 @@
 # Consensus Pathway Analysis using Google Cloud Infrastructure
 Authors: Bang Tran, Hung Nguyen, Nicole Schrad, Juli Petereit, and Tin Nguyen
 
-This Cloud-based learning module teaches Pathway Analysis, a term that describes the set of tools and techniques used in
+This cloud-based learning module teaches pathway analysis, a term that describes the set of tools and techniques used in
 life sciences research to discover the biological mechanism behind a condition from high throughput biological data. 
 Pathway Analysis tools are primarily used to analyze these omics datasets to detect relevant groups of genes that are 
-altered in case samples when compared to a control group. Pathway Analysis approaches make use of already existing pathway 
+altered in case samples when compared to a control group. Pathway analysis approaches make use of already existing pathway 
 databases and given gene expression data to identify the pathways which are significantly impacted in a given condition.
+
+This module will cost you about $1.00 to run, assuming you shut down and delete all resources at the end of your analysis.
 
 <span style="color:red">**[Intro.mp4 place holder]**</span>
 
