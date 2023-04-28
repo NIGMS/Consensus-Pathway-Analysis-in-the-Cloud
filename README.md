@@ -36,59 +36,16 @@ Each learning submodules will be organized in a R Jupyter notebook with step-by-
 line to install necessary tools, obtain data, perform analyses, visualize and interpret the results. The notebook will 
 be executed in the Google Cloud environment. Therefore, the first step is to set up a virtual machine VertexAI.
 
-### Signing in Google Cloud Platform
-You can begin by first navigating to https://console.cloud.google.com/ and logging in with your credentials. 
-
-![](./images/SettingGC/Login.png)
-
-After a few moments, the GCP console opens with following dashboard.
-
-![](./images/SettingGC/Dashboard.png)
-
 ### Navigating to the Vertex AI Workbench
-
-Once the login process is done, we can create a virtual machine for analysis using Vertex AI Workbench. 
-There are two ways to navigate to Vertex AI. In the first method, we can click the __Navigation menu__ at the top-left, 
-next to “Google Cloud Platform”. Then, navigate to <a href="https://console.cloud.google.com/vertex-ai">Vertex AI</a> 
-and select <a href="https://console.cloud.google.com/vertex-ai/workbench">Workbench</a>. In the second method, we can 
- go to __Google Cloud Console Menu__ in the __Search products and resources__, enter "Workbench" and then select 
-__Workbench Vertex AI__.
-
-![](./images/SettingGC/Vertex-1.png)
-
-If it isn't already enabled we click __Enable__ to start using the API.
-
-![](./images/SettingGC/Enable_API.png)
-
-### Creating a Virtual Machine
-
-Within the Workbench screen, click __USER-MANAGED NOTEBOOKS__, select the region which is closed to your physical location 
-and click __CREATE NOTEBOOK__. Since our analyses will be based on R programming language, we need to select R 4.2 (or whatever is the most recent version available) as 
-our development environment. Then, set a name for your virtual machine and select the server which is closed to you 
-physical location. In our learning module, a default machine with 4 vCPUS and 15GB RAM would be suffice. Finally, 
-click __CREATE__ to get the new machine up and running.
-
-![](./images/SettingGC/Create_Notebook.png)
-
-Creating a machine may take a few minutes to finish and you should see a new notebook with your designed name appears 
-within the workbench dashboard when the process is completed. 
-
-![](./images/SettingGC/New_Notebook.png)
-
-To start the virtual machine, select your notebook in the __USER-MANAGED NOTEBOOKS__ and click on __START__ button 
-on the top menu bar. The starting process might take up to several minutes. When it is done, the green checkmark 
-indicates that your virtual machine is running.  Next, clicking __OPEN JUPYTER LAB__ to access the notebook.
-
-![](./images/SettingGC/Start_Machine.png)
+You can begin by first navigating to https://console.cloud.google.com/ and logging in with your credentials. Next, follow the directions in the [STRIDES tutorial on setting up a Vertex AI notebook](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md). This will walk you through the basics of cloud platforms and provide links for setting up the environment. For this module, you will need to set up a virtual machine on an R kernel. We recommend the n1-standard-4 machine type with 4 vCPUs and 15GB of RAM.
 
 ### Downloading and Running Tutorial Files
 
 Now that you have successfully created your virtual machine, and you will be directed to Jupyterlab screen. 
-The next step is to import our CPA's notebooks start the course. 
+The next step is to import the notebooks and start the course. 
 This can be done by selecting the __Git__ from the top menu in Jupyterlab, and choosing the __Clone a Repository__ 
 option. 
-Next you can copy and paste in the link of repository: "https://github.com/NIGMS/ConsensusPathwayUNR.git"
-(without quotation marks) and click __Clone__.
+Next you can copy and paste in the link of repository: `https://github.com/NIGMS/ConsensusPathwayUNR.git` and click __Clone__.
 
 ![](./images/SettingGC/Clone_Git.png)
 
