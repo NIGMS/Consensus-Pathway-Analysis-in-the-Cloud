@@ -9,7 +9,7 @@ databases and given gene expression data to identify the pathways which are sign
 
 This module will cost you about $1.00 to run, assuming you shut down and delete all resources at the end of your analysis.
 
-<span style="color:red">**[Intro.mp4 place holder]**</span>
+Watch this [Introduction Video](https://youtu.be/fs5YamLHPcA) to learn more about the module.
 
 The course is structured such that the content will be arranged in five submodules which allows us to:
 1. Download and process data from public repositories,
