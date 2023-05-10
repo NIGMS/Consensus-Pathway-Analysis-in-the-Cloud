@@ -21,20 +21,22 @@ pathways and genes.
 
 ## Overview of Page Contents
 
-+ [Getting Started](#GS)
-+ [Google Cloud Buckets](#BUCKET)
-+ [Workflow Diagrams](#WORK)
-+ [Google Cloud Architecture](#ARCH)
-+ [Software Requirements](#SOF)
-+ [Data](#DATA)
-+ [Troubleshooting](#TR)
-+ [Funding](#FUND)
-+ [License](#LIC)
++ [Getting Started](#getting-started)
++ [Google Cloud](#google-cloud)
++ [Workflow Diagrams](#workflow-diagrams)
++ [Google Cloud Architecture](#google-cloud-architecture)
++ [Software Requirements](#software-requirements)
++ [Data](#data)
++ [Troubleshooting](#troubleshooting)
++ [Funding](#funding)
++ [License](#license-for-data)
 
-## <a name="GS">Getting Started</a>
+## Getting Started
 Each learning submodules will be organized in a R Jupyter notebook with step-by-step hands-on practice with R command 
 line to install necessary tools, obtain data, perform analyses, visualize and interpret the results. The notebook will 
 be executed in the Google Cloud environment. Therefore, the first step is to set up a virtual machine VertexAI.
+
+## Google Cloud
 
 ### Navigating to the Vertex AI Workbench
 You can begin by first navigating to https://console.cloud.google.com/ and logging in with your credentials. Next, follow the directions in the [STRIDES tutorial on setting up a Vertex AI notebook](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md). This will walk you through the basics of cloud platforms and provide links for setting up the environment. For this module, you will need to set up a virtual machine on an R kernel. We recommend the n1-standard-4 machine type with 4 vCPUs and 15GB of RAM.
@@ -69,7 +71,7 @@ searching for Jupyter tutorials and literature online.
 When you are finished running code, you should turn off your virtual machine to prevent unneeded billing or resource 
 use by checking your notebook and pushing the __STOP__ button.
 
-## <a name="WORK">Workflow Diagrams</a>
+## Workflow Diagrams
 
 The content of the course is organized in R Jupyter Notebooks. Another way to view this module is Jupyter Book which is a package to combine 
 individuals Jupyter Notebooks into a web-interface for a better navigation, this is only to view the notebook not to run it. Details of installing the tools and formatting
@@ -88,24 +90,24 @@ Genomes (KEGG)
 + methods such as `ORA`, `FGSEA`, and `GSA`.
 + [**Submodule 05**](./Module05-Meta_Analysis.ipynb) aims at performing Meta-analysis using multiple datasets.
 
-# <img src="./images/Intro/Main-img.png" width="900" height="550">
+# ![](./images/Intro/Main-img.png)
 
-## <a name="BUCKET">Creating Google Cloud Storage Buckets</a>
+## Creating Google Cloud Storage Buckets
 In this section, we will describe the steps to create Google Cloud Storage Buckets to store data generated during 
 analysis.  The bucket can be created via GUI or using the command line.
 To use the GUI, the user has to first visit https://console.cloud.google.com/storage/, sign in, click on __Buckets__ 
 on the left menu.
 
-# <img src="./images/Bucket/Step0.png">
+# ![](./images/Bucket/Step0.png)
 Next, click on the __CREATE__ button below the search bar to start creating a new bucket.
 
-# <img src="./images/Bucket/Step1.png">
+# ![](./images/Bucket/Step1.png)
 
 This will then open a page where the user will provide the unique name of the bucket, the
 location, access control and other information about the bucket. Here, we named our bucket as _cpa-output_ (please remember to create your own since all buckets are meant to have unique names). After this 
 the user will click on the __CREATE__ button to complete the process.
 
-# <img src="./images/Bucket/Step2.png">
+# ![](./images/Bucket/Step2.png)
 
 To create a Bucket using the command line, the user can use the gcloud storage buckets `create` command
 `gcloud storage buckets create gs://BUCKET_NAME` where `BUCKET_NAME` is the user-defined name. 
@@ -121,9 +123,9 @@ This command also returns a success message upon completion and can also take op
 location of the bucket and 
 uniform bucket-level access respectively, just like the `create` command.
 
-## <a name="ARCH">Google Cloud Architecture</a>
+## Google Cloud Architecture
 
-# <img src="./images/Intro/architecture.png" width="900" height="500">
+# ![](./images/Intro/architecture.png)
 The figure above shows the architecture of the learning module with Google Cloud infrastructure. First, we will create
 an VertexAI workbench with R kernel. The code and instruction for each submodule is presented in a separate Jupyter Notebook.
 User can either upload the Notebooks to the VertexAI workbench or clone from the project repository. Then, users can execute 
@@ -132,10 +134,10 @@ for preprocessing and save the processed data to a local file in VertexAI workbe
 of the submodule 01 will be used as inputs for all other submodules. The outputs of the submodules 02, 03, and 04 will be saved to 
 local repository in VertexAI workbench and the code to copy them to the user's cloud bucket is also included.
 
-# <a name="SOF">Software Requirements</a>
+# Software Requirements
 This learning module requires some computational hardware and local environment setting from users as the 
 programs and scripts but this is easily provided during the notebook set up explained above. The browser-based development environment provided by Google. However, 
-users need to have Google email account, sufficient internet access, and a standard web-browser (e.g. Chrome, Edge, 
+users need to have Google email account, sufficient internet access, and a standard web-browser (e.g., Chrome, Edge, 
 Firefox etc., Chrome browser is recommended) to create a Cloud Virtual Machine for analysis. It is recommended to 
 execute the Jupyter NoteBook using R kernel version > 4.1 using a standard machine 
 with minimum configuration of 4 vCPUs, 15 GB RAM, and 10GB of HDD.
@@ -186,12 +188,12 @@ loaded via a namespace (and not attached):
 [67] tidyselect_1.2.0
  
 ```
-## <a name="DATA">Data</a>
+## Data
 All data from the modules were originally downloaded from the Gene Expression Omnibus (GEO) repository using the accession
 number GSE48350 file. The data was originally generated by **Berchtold and Cotman, 2013**. We preprocessed this data and
 normalized it, after which we used it in the subsequent analyses.
 
-## <a name="TR">Troubleshooting</a>
+## Troubleshooting
 
 Some common errors include:
 - Having the Jupyter Notebook kernel defaulting to Python and libraries not loading properly. 
@@ -202,30 +204,16 @@ Some common errors include:
 - Packages can usually be downloaded by the instructions in the documentation. 
 - Other errors that may happen are usually due to grammatical errors such as capitalization or spelling errors. 
 
-## <a name="FUND">Funding</a>
+## Funding
 
 This work was fully supported by NIH NIGMS under grant number GM103440. Any opinions, findings, and conclusions, 
 or recommendations expressed in this material are those of the authors and do not necessarily reflect the views 
 of any of the funding agencies.
 
-## <a name="LIC">License for Data</a>
+## License for Data
 
-Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix 
-and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license)
-and do not make profits from it. More information is available [here](https://tilburgsciencehub.com/about/#license).
+Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it. More information is available [here](https://tilburgsciencehub.com/about/#license).
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" 
-style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
+![Creative commons license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative 
-Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-
-
-
-
-
-
-
-```python
-
-```
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
