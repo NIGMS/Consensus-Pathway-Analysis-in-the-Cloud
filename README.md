@@ -129,7 +129,7 @@ uniform bucket-level access respectively, just like the `create` command.
 The figure above shows the architecture of the learning module with Google Cloud infrastructure. First, we will create
 an VertexAI workbench with R kernel. The code and instruction for each submodule is presented in a separate Jupyter Notebook.
 User can either upload the Notebooks to the VertexAI workbench or clone from the project repository. Then, users can execute 
-the code directly in the Notebook. In our learning course, the submodule 01 will download data from the public repository (e.g. GEO database)
+the code directly in the Notebook. In our learning course, the submodule 01 will download data from the public repository (e.g., GEO database)
 for preprocessing and save the processed data to a local file in VertexAI workbench and to the user's Google Cloud Storage Bucket. The output
 of the submodule 01 will be used as inputs for all other submodules. The outputs of the submodules 02, 03, and 04 will be saved to 
 local repository in VertexAI workbench and the code to copy them to the user's cloud bucket is also included.
