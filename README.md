@@ -1,4 +1,6 @@
 ![course card](images/UNR-course-card.png)
+Image adapted from https://doi.org/10.1038/s41467-019-13983-9
+
 # Consensus Pathway Analysis using Google Cloud Infrastructure
 Authors: Bang Tran, Hung Nguyen, Nicole Schrad, Juli Petereit, and Tin Nguyen
 
