@@ -50,7 +50,7 @@ Now that you have successfully created your virtual machine, and you will be dir
 The next step is to import the notebooks and start the course. 
 This can be done by selecting the __Git__ from the top menu in Jupyterlab, and choosing the __Clone a Repository__ 
 option. 
-Next you can copy and paste in the link of repository: `https://github.com/NIGMS/ConsensusPathwayUNR.git` and click __Clone__.
+Next you can copy and paste in the link of repository: `https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud.git` and click __Clone__.
 
 ![](./images/SettingGC/Clone_Git.png)
 
