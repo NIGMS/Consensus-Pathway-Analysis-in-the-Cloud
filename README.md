@@ -44,6 +44,11 @@ be executed in the Google Cloud environment. Therefore, the first step is to set
 ### Navigating to the Vertex AI Workbench
 You can begin by first navigating to https://console.cloud.google.com/ and logging in with your credentials. Next, follow the directions in the [STRIDES tutorial on setting up a Vertex AI notebook](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md). This will walk you through the basics of cloud platforms and provide links for setting up the environment. For this module, you will need to set up a virtual machine on an R kernel. We recommend the n1-standard-4 machine type with 4 vCPUs and 15GB of RAM.
 
+Additionally, when creating a notebook it is important to enable automatic shutdown after a period of time. This will prevent you from running up a huge bill if you forget to turn off your machine. To do this, click Advanced Options on the Create instance page and click the Enable Idle Shutdown button in the Machine type tab as shown in the screenshots below.
+![Select Advanced Options](images/Advanced_options.png)
+
+![Enable Idle Shutdown](images/Enable_auto_shutdown.png)
+
 ### Downloading and Running Tutorial Files
 
 Now that you have successfully created your virtual machine, and you will be directed to Jupyterlab screen. 
