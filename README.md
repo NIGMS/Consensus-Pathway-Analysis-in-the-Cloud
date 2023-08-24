@@ -42,7 +42,7 @@ be executed in the Google Cloud environment. Therefore, the first step is to set
 ## Google Cloud
 
 ### Navigating to the Vertex AI Workbench
-You can begin by first navigating to https://console.cloud.google.com/ and logging in with your credentials. Next, follow the directions in the [STRIDES tutorial on setting up a Vertex AI notebook](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md). This will walk you through the basics of cloud platforms and provide links for setting up the environment. For this module, you will need to set up a virtual machine on an R kernel. We recommend the n1-standard-4 machine type with 4 vCPUs and 15GB of RAM.
+You can begin by first navigating to https://console.cloud.google.com/ and logging in with your credentials. Next, follow the directions in the [STRIDES tutorial on setting up a Vertex AI notebook](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md). This will walk you through the basics of cloud platforms and provide links for setting up the environment. Be especially careful to enable idle shutdown as highlighted in step 7. For this module you should select Debian 10 and R 4.2 in the Environment tab in step 5. We recommend the n1-standard-4 machine type in step 6 with 4 vCPUs and 15GB of RAM.
 
 ### Downloading and Running Tutorial Files
 
