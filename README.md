@@ -2,7 +2,7 @@
 Image adapted from https://doi.org/10.1038/s41467-019-13983-9
 
 # Consensus Pathway Analysis using Google Cloud Infrastructure
-Authors: Bang Tran, Hung Nguyen, Nicole Schrad, Juli Petereit, and Tin Nguyen
+Authors: Ha Nguyen, Van-Dung Pham, Hung Nguyen, Bang Tran, Nicole Schrad, Juli Petereit, and Tin Nguyen
 
 This cloud-based learning module teaches pathway analysis, a term that describes the set of tools and techniques used in
 life sciences research to discover the biological mechanism behind a condition from high throughput biological data. 
