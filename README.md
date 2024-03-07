@@ -82,16 +82,16 @@ the content can be found at: https://jupyterbook.org/en/stable/intro.html. The c
 Github repository of Dr. Tin Nguyen's lab, and can be found at https://github.com/tinnlab/NOSI-Google-Cloud-Training.
 The overall structure of the modules is explained below:
 
-+ [**Submodule 01**](./Module01-GEO_Data_Processing.ipynb) describes how to obtain data from public repository, process 
++ [**Submodule 01**](./Submodule01-ProcessingExpressionData.ipynb) describes how to obtain data from public repository, process 
 + and save the expression matrix and shows how to map probe IDs into gene symbols.
-+ [**Submodule 02**](./Module02-DE_Analysis.ipynb) focuses on Differential Expression Analysis using `limma`, `t-test`, 
++ [**Submodule 02**](./Submodule02-DifferentialAnalysis.ipynb) focuses on Differential Expression Analysis using `limma`, `t-test`, 
 `edgeR`, and `DESeq2`.
-+ [**Submodule 03**](./Module03-Gene_Set_and_Pathway.ipynb) introduces common curated biological databases such as Gene 
-+ Ontology (GO), Kyoto Encyclopedia of Genes and 
++ [**Submodule 03**](./Submodule03-ProcessingPathwayInformation.ipynb) introduces common curated biological databases such as Gene 
++ Ontology (GO), Kyoto Encyclopedia of Genes, and REACTOME.
 Genomes (KEGG)
-+ [**Submodule 04**](./Module04-Pathway_Analysis.ipynb) aims at performing Enrichment Analysis methods using popular 
++ [**Submodule 04**](./Submodule04-PathwayAnalysis.ipynb) aims at performing Enrichment Analysis methods using popular 
 + methods such as `ORA`, `FGSEA`, and `GSA`.
-+ [**Submodule 05**](./Module05-Meta_Analysis.ipynb) aims at performing Meta-analysis using multiple datasets.
++ [**Submodule 05**](./Submodule05-MetaAnalysis.ipynb) aims at performing Meta-analysis using multiple datasets.
 
 # ![](./images/Intro/Main-img.png)
 
