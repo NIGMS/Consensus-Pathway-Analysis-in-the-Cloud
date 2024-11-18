@@ -11,7 +11,7 @@ Each learning submodule will be organized in an R Jupyter notebook with step-by-
 
 ## Creating a notebook instance with R kernel in Google cloud
 
-Follow the steps highlighted in the second part (2. Spin up Instance from a Container) of [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md) to create a new notebook instance in Vertex AI. Follow steps 1-8, in step 5 select region us-east4 (Northern Virgina) and be especially careful to use custom container `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/nigms-vertex-r` in step 6 under the Docker container image prompt. In step 7 under the Machine type tab, select n1-standard-4 from the dropdown box. In step 8, be carefull to **Enable Idle Shutdown**. After creating the notebook you can click on **OPEN JUPYTERLAB**.
+Follow the steps highlighted in part two (2. Spin up Instance from a Container) of [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md) to create a new notebook instance in Vertex AI. Follow steps 1-8, in step 5 select region us-east4 (Northern Virgina) and be especially careful to use custom container `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/nigms-vertex-r` in step 6 under the Docker container image prompt. In step 7 under the Machine type tab, select n1-standard-4 from the dropdown box. In step 8, be carefull to **Enable Idle Shutdown**. After creating the notebook you can click on **OPEN JUPYTERLAB**.
 
 ### Downloading and Running Tutorial Files
 
