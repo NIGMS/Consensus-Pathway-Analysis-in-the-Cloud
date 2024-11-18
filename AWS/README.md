@@ -8,12 +8,20 @@
 ## Getting Started
 Each learning submodules will be organized in a R Jupyter notebook with step-by-step hands-on practice with R command 
 line to install necessary tools, obtain data, perform analyses, visualize and interpret the results. The notebook will 
-be executed in the Google Cloud environment. Therefore, the first step is to set up a notebook instance in VertexAI.
+be executed in the AWS environment. Therefore, the first step is to set up a notebook instance in AWS SageMaker.
 
 
-## Creating a notebook instance with R kernel in Google cloud
+## Creating a notebook instance 
 
-Follow the steps highlighted in the second part (2. Spin up Instance from a Container) of [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md) to create a new notebook instance in Vertex AI. Follow steps 1-8, in step 5 select region us-east4 (Northern Virgina) and be especially careful to use custom container `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/nigms-vertex-r` in step 6 under the Docker container image prompt. In step 7 under the Machine type tab, select n1-standard-4 from the dropdown box. In step 8, be carefull to **Enable Idle Shutdown**. After creating the notebook you can click on **OPEN JUPYTERLAB**.
+Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) to create a new notebook instance in Amazon SageMaker. 
+
++ In step 4, select ml.m5.xlarge from the dropdown box as the notebook instance type and be especially careful to **enable idle shutdown**.
+
++ In step 7, after creating a notebook instance and being in JupyterLab screen you will need to download the module content. The easiest way to do this is to clone the repository directly for the NIGMS Github. This can be done by clicking on git symbol in your JupyterLab environment and pasting the following URL `https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery.git`. This should download our repo, and the tutorial files inside, into a folder called 'Analysis-of-Biomedical-Data-for-Biomarker-Discovery'. Double click this folder now. Inside you will find all of the tutorial files, which you can double click and run. You should also see a data file that contains the biomarker and proteomic data to be analyzed.
+
++ In step 8, you select a Kernel for the notebook. Please select R for this module. 
+
++ When you are finished running code, stop your notebook to prevent unneeded billing as illustrated in step 9.
 
 ### Downloading and Running Tutorial Files
 
@@ -47,8 +55,8 @@ use by checking your notebook and pushing the __STOP__ button.
 
 ## Creating Amazon S3 Buckets
 In this section, we will describe the steps to create AWS S3 Buckets to store data generated during 
-analysis.  The bucket can be created via GUI or using the command line.
-To use the GUI, the user has to first visit https://console.aws.amazon.com/s3, sign in, click on __create bucket__ 
+analysis.  The bucket can be created via *GUI* or using the *command line*.
+To use the GUI, the user has to first visit https://console.aws.amazon.com/s3, sign in, click on __Create bucket__ 
 on the right.
 
 # ![](./images/Bucket/bucket1.png)
