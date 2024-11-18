@@ -6,9 +6,7 @@
 + [Google Cloud Architecture](#google-cloud-architecture)
 
 ## Getting Started
-Each learning submodules will be organized in a R Jupyter notebook with step-by-step hands-on practice with R command 
-line to install necessary tools, obtain data, perform analyses, visualize and interpret the results. The notebook will 
-be executed in the Google Cloud environment. Therefore, the first step is to set up a notebook instance in VertexAI.
+Each learning submodule will be organized in an R Jupyter notebook with step-by-step hands-on practice with R command line to install necessary tools, obtain data, perform analyses, visualize and interpret the results. The notebook will be executed in the Google Cloud environment. Therefore, the first step is to set up a notebook instance in VertexAI.
 
 
 ## Creating a notebook instance with R kernel in Google cloud
