@@ -17,41 +17,11 @@ Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/
 
 + In step 4, select ml.m5.xlarge from the dropdown box as the notebook instance type and be especially careful to **enable idle shutdown**.
 
-+ In step 7, after creating a notebook instance and being in JupyterLab screen you will need to download the module content. The easiest way to do this is to clone the repository directly for the NIGMS Github. This can be done by clicking on git symbol in your JupyterLab environment and pasting the following URL `https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery.git`. This should download our repo, and the tutorial files inside, into a folder called 'Analysis-of-Biomedical-Data-for-Biomarker-Discovery'. Double click this folder now. Inside you will find all of the tutorial files, which you can double click and run. You should also see a data file that contains the biomarker and proteomic data to be analyzed.
++ In step 7, after creating a notebook instance and being in JupyterLab screen you will need to download the module content. The easiest way to do this is to clone the repository directly for the NIGMS Github. This can be done by clicking on git symbol in your JupyterLab environment and pasting the following URL `https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud.git`. This should download our repo, and the tutorial files inside, into a folder called 'Analysis-of-Biomedical-Data-for-Biomarker-Discovery'. Double click this folder now. Inside you will find all of the tutorial files, which you can double click and run. You should also see a data file that contains the biomarker and proteomic data to be analyzed.
 
 + In step 8, you select a Kernel for the notebook. Please select R for this module. 
 
 + When you are finished running code, stop your notebook to prevent unneeded billing as illustrated in step 9.
-
-### Downloading and Running Tutorial Files
-
-Now that you have successfully created your virtual machine, and you will be directed to Jupyterlab screen. 
-The next step is to import the notebooks and start the course. 
-This can be done by selecting the __Git__ from the top menu in Jupyterlab, and choosing the __Clone a Repository__ 
-option. 
-Next you can copy and paste in the link of repository: `https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud.git` and click __Clone__.
-
-![](./images/SettingGC/Clone_Git.png)
-
-This should download our repository to Jupyterlab folder. All tutorial files for five sub-module are in Jupyter 
-format with *.ipynv* extension . Double click on each file to view the lab content and running the code. This will 
-open the Jupyter file in Jupyter notebook. From here you can run each section, or 'cell', of the code, one by one, 
-by pushing the 'Play' button on the above menu.
-
-![](./images/SettingGC/Run_Cell.png)
-
-Some 'cells' of code take longer for the computer to process than others. You will know a cell is running when a cell 
-has an asterisk next to it \[\*\]. When the cell finishes running, that asterisk will be replaced with a number which 
-represents the order that cell was run in. You can now explore the tutorials by running the code in each, from top to 
-bottom. Look at the 'workflows' section below for a short description of each tutorial.
-
-Jupyter is a powerful tool, with many useful features. For more information on how to use Jupyter, we recommend 
-searching for Jupyter tutorials and literature online.
-
-### Stopping Your Virtual Machine
-
-When you are finished running code, you should turn off your notebook to prevent unneeded billing or resource 
-use by checking your notebook and pushing the __STOP__ button.
 
 ## Creating Amazon S3 Buckets
 In this section, we will describe the steps to create AWS S3 Buckets to store data generated during 
