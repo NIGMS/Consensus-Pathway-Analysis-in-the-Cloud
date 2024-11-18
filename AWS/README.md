@@ -45,44 +45,48 @@ searching for Jupyter tutorials and literature online.
 When you are finished running code, you should turn off your notebook to prevent unneeded billing or resource 
 use by checking your notebook and pushing the __STOP__ button.
 
-## Creating Google Cloud Storage Buckets
-In this section, we will describe the steps to create Google Cloud Storage Buckets to store data generated during 
+## Creating Amazon S3 Buckets
+In this section, we will describe the steps to create AWS S3 Buckets to store data generated during 
 analysis.  The bucket can be created via GUI or using the command line.
-To use the GUI, the user has to first visit https://console.cloud.google.com/storage/, sign in, click on __Buckets__ 
-on the left menu.
+To use the GUI, the user has to first visit https://console.aws.amazon.com/s3, sign in, click on __create bucket__ 
+on the right.
 
-# ![](./images/Bucket/Step0.png)
-Next, click on the __CREATE__ button below the search bar to start creating a new bucket.
-
-# ![](./images/Bucket/Step1.png)
+# ![](./images/Bucket/bucket1.png)
 
 This will then open a page where the user will provide the unique name of the bucket, the
-location, access control and other information about the bucket. Here, we named our bucket as _cpa-output_ (please remember to create your own since all buckets are meant to have unique names). After this 
-the user will click on the __CREATE__ button to complete the process.
+location, access control and other information about the bucket. Here, we named our bucket as _your-unique-name_ (please remember to create your own since all buckets are meant to have unique names). 
 
-# ![](./images/Bucket/Step2.png)
+# ![](./images/Bucket/bucket2.png)
 
-To create a Bucket using the command line, the user can use the gcloud storage buckets `create` command
-`gcloud storage buckets create gs://BUCKET_NAME` where `BUCKET_NAME` is the user-defined name. 
-If the request succeeds, the user gets a success message. The user can also add optional flags
-while running the `create command ` to have greater control over the creation of the bucket.
-Such flags include `--project: PROJECT_NAME`, `--default-storage-class: STORAGE_CLASS`, `--location: LOCATION`
-and `--uniform-bucket-level-access` with `PROJECT_NAME` and `STORAGE_CLASS` supplied by the user.
+After this the user will click on the __Create bucket__ button to complete the process.
+# ![](./images/Bucket/bucket3.png)
 
-Storage Buckets can also be created on the command line using the `gsutils mb` command.
-The command to do so is `gsutil mb gs://BUCKET_NAME`, with `BUCKET_NAME` the desired bucket name.
-This command also returns a success message upon completion and can also take optional flags 
-`-p`, `-c`, `-l`, `-b` and their user-supplied values, corresponding to project ID or number, default storage class, 
-location of the bucket and 
-uniform bucket-level access respectively, just like the `create` command.
+To create an S3 bucket using the command line, the user can use the AWS CLI command `aws s3 mb`.
+
+```bash
+aws s3 mb s3://BUCKET_NAME
+```
+
+where `BUCKET_NAME` is the user-defined name. If the request succeeds, the command returns a success message. The user can also add optional parameters to have greater control over the creation of the bucket.  These parameters are typically specified using options like `--<parameter_name> <value>`.
+
+Some common options include:
+
+* **`--region REGION`:** Specifies the AWS Region where the bucket will be created (e.g., `--region us-west-2`).  This is **required** unless a default region is configured in your AWS CLI.  Note that S3 bucket names are globally unique, so choosing a region effectively reserves that bucket name worldwide.
+* **`--storage-class STORAGE_CLASS`:** Specifies the storage class for the bucket (e.g., `--storage-class STANDARD`).  If not specified, the default storage class is used.
+* **`--block-public-access`:**  Controls block public access settings for the bucket. You can use this with sub-options like `--block-public-access-block-all` to block all public access.  This is generally recommended for new buckets unless public access is specifically required.
+* **`--create-bucket-configuration LocationConstraint=REGION`:**  While `--region` is the preferred way to specify region, older versions of the AWS CLI may require this parameter.  Replace `REGION` with the desired AWS region (e.g., `LocationConstraint=us-west-2`).
+
+
+For example, to create a bucket in the `us-west-2` region with standard storage class and block all public access, you would use:
+
+```bash
+aws s3 mb s3://BUCKET_NAME --region us-west-2 --storage-class STANDARD --block-public-access block-all
+```
 
 ## Google Cloud Architecture
 
 # ![](./images/Intro/architecture.png)
-The figure above shows the architecture of the learning module with Google Cloud infrastructure. First, we will create
-an VertexAI workbench with R kernel. The code and instruction for each submodule is presented in a separate Jupyter Notebook.
-User can either upload the Notebooks to the VertexAI workbench or clone from the project repository. Then, users can execute 
-the code directly in the Notebook. In our learning course, the submodule 01 will download data from the public repository (e.g., GEO database)
-for preprocessing and save the processed data to a local file in VertexAI workbench and to the user's Google Cloud Storage Bucket. The output
-of the submodule 01 will be used as inputs for all other submodules. The outputs of the submodules 02, 03, and 04 will be saved to 
-local repository in VertexAI workbench and the code to copy them to the user's cloud bucket is also included.
+The figure above shows the architecture of the learning module with AWS infrastructure. First, we will create
+a SageMaker notebook instance. The code and instruction for each submodule is presented in a separate Jupyter Notebook.
+User can either upload the Notebooks or clone from the project repository. Then, users can execute 
+the code directly in the Notebook. In this SageMaker notebook instance, Submodule 01 downloads data from public repositories like the GEO database for preprocessing. The preprocessed data is then saved both to the notebook instance's local storage and the user's designated Amazon S3 bucket. This output serves as input for all subsequent submodules. Submodules 02, 03, and 04 save their outputs to the notebook instance's local storage. Code is provided to copy these outputs to the user's S3 bucket for persistent storage.
