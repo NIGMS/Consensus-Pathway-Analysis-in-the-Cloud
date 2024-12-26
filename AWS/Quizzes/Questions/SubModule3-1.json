@@ -1,0 +1,30 @@
+[
+	{
+        "question": "How does pathway analysis help with expression analysis?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "All answers are true",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "It reduces the complexity of the data",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "It highlights biological pathways, processes, and functions that are differentially expressed",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+             {
+                "answer": "It can be use to compare different experiments using common terminology",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
+
+

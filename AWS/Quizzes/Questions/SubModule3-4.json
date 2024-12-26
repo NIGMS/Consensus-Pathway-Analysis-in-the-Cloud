@@ -1,0 +1,30 @@
+[
+	{
+        "question": "What is the pathway code for the human Pentose phosphate pathway?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "path:hsa00030",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "hsa00512",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "hsa00030",
+                "correct": true,
+                "feedback": "Correct"
+            },
+             {
+                "answer": "path:hsa00512",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
+
+

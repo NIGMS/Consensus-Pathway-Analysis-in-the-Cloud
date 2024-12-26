@@ -1,0 +1,30 @@
+[
+	{
+        "question": "How does KEGG differ from GO?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "It classifies genes into what pathways they are involved in",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "All answers are true",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "It uses data from experiments to determine pathway classification",
+                "correct": true,
+                "feedback": "Correct"
+            },
+             {
+                "answer": "It describes genes in terms of Molecular Function, Biological Process, and Cellular Component",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
+
+
