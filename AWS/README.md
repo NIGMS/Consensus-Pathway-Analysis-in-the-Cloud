@@ -11,17 +11,21 @@ line to install necessary tools, obtain data, perform analyses, visualize and in
 be executed in the AWS environment. Therefore, the first step is to set up a notebook instance in AWS SageMaker.
 
 
-## Creating a notebook instance 
+## Creating a JupyterLab with a costum image 
 
-Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) to create a new notebook instance in Amazon SageMaker. 
+Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateJupyterlabWithCustomImage.md) to run a JupyterLab with a custom Docker image. 
 
-+ In step 4, select ml.m5.xlarge from the dropdown box as the notebook instance type and be especially careful to **enable idle shutdown**.
++ In step 4, use the URL `664418964547.dkr.ecr.us-east-1.amazonaws.com/sagemaker/r-studio:latest` from Amazon Elastic Container Registry.
 
-+ In step 7, after creating a notebook instance and being in JupyterLab screen you will need to download the module content. The easiest way to do this is to clone the repository directly for the NIGMS Github. This can be done by clicking on git symbol in your JupyterLab environment and pasting the following URL `https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud.git`. This should download our repo, and the tutorial files inside, into a folder called 'Analysis-of-Biomedical-Data-for-Biomarker-Discovery'. Double click this folder now. Inside you will find all of the tutorial files, which you can double click and run. You should also see a data file that contains the biomarker and proteomic data to be analyzed.
+**Stop your JupyterLab at end of your work to avoid getting extra charges.**
 
-+ In step 8, you select a Kernel for the notebook. Please select R for this module. 
 
-+ When you are finished running code, stop your notebook to prevent unneeded billing as illustrated in step 9.
+
+## Clone from GitHub
+
+Use the URL `https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud.git` to clone from GitHub.
+
+# ![](./images/Intro/clone.png)
 
 ## Creating Amazon S3 Buckets
 In this section, we will describe the steps to create AWS S3 Buckets to store data generated during 
