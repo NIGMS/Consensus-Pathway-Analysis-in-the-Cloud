@@ -15,7 +15,7 @@ be executed in the AWS environment. Therefore, the first step is to set up a not
 
 Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateJupyterlabWithCustomImage.md) to run a JupyterLab with a custom Docker image. 
 
-+ In step 4, use the URL `664418964547.dkr.ecr.us-east-1.amazonaws.com/sagemaker/r-studio:latest` from Amazon Elastic Container Registry.
++ In step 4, use the URL `public.ecr.aws/v8e3m3v4/sagemaker-studio/r:latest` from Amazon Elastic Container Registry.
 
 **Stop your JupyterLab at end of your work to avoid getting extra charges.**
 
