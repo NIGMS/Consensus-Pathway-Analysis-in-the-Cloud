@@ -1,0 +1,30 @@
+[
+	{
+        "question": "How is enrichment analysis different from differential analysis?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Enrichment analysis finds groups of biologically revelant genes that have significant expression",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Enrichment analysis uses more complex models to find gene expression than differential analysis",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Differential analysis needs to use GO or KEGG to find expression differences",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+             {
+                "answer": "All of the above",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
+
+

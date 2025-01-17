@@ -1,0 +1,20 @@
+[
+	{
+        "question": "FGSEA doesn't use an algorithm to calculate p values",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "False",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "True",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
+
+

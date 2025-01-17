@@ -1,0 +1,30 @@
+[
+	{
+        "question": "What is the  KEGG organism code for a bonobo?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "T01001",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "pon",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "pps",
+                "correct": true,
+                "feedback": "Correct"
+            },
+             {
+                "answer": "T02283",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
+
+

@@ -1,0 +1,28 @@
+[
+	{
+        "question": "How many samples and genes does this dataset have?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Samples=54,675; Genes=253",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Samples=253; Genes=54,675",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Samples=194; Genes=83,745",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Samples=83,745; Genes=194",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
