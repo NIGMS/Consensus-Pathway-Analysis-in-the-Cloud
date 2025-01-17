@@ -11,7 +11,7 @@ line to install necessary tools, obtain data, perform analyses, visualize and in
 be executed in the AWS environment. Therefore, the first step is to set up a notebook instance in AWS SageMaker.
 
 
-## Creating a JupyterLab with a costum image 
+## Creating a JupyterLab with a custom image 
 
 Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateJupyterlabWithCustomImage.md) to run a JupyterLab with a custom Docker image. 
 
