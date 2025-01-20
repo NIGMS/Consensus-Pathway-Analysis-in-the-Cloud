@@ -1,0 +1,28 @@
+[
+	{
+        "question": "Look up GSE192921 on NCBI. How many samples does this dataset have?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "13",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "24",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "100",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "20",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]

@@ -1,0 +1,20 @@
+[
+	{
+        "question": "True or False: Meta analysis is the combined analysis of multiple datasets?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
+
+

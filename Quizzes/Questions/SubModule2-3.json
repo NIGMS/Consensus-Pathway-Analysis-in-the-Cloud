@@ -1,0 +1,28 @@
+[
+	{
+        "question": "What is a main difference between edgeR and limma?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "edgeR uses an over-dispersed Poisson model instead of linear models",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "edgeR uses t-tests to find significant genes",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "edgeR uses an Empirical Bayes model to estimate log-fold change",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+                 {
+                "answer": "edgeR takes longer to run",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]

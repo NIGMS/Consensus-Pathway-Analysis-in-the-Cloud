@@ -1,0 +1,28 @@
+[
+	{
+        "question": "Why do we need to map probeIDs to gene symbols?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "So datasets from different assays can be compared",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "All answers are true",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Gene symbols are used in downstream processing",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Gene symbols are commonly referenced in published papers",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]

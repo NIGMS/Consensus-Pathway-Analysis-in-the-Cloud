@@ -1,0 +1,28 @@
+[
+	{
+        "question": "What does differential expression analysis do?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Identifies statistically significant genes that are expressed at different levels between conditons",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Identifies statistically significant gene pathways between conditions",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Identifies the most expressed genes per sample",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+                 {
+                "answer": "Creates a differential equation to model your expression levels",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+	{
+        "question": "Why do the probeIDs need to be converted to gene symbols before enrichment analysis?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Pathway databases (KEGG and GO) group genes with gene symbols",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "They don't need to be converted",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Gene symbols are synonymous with biological pathways",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+             {
+                "answer": "None of the above",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
+
+
