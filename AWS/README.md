@@ -1,15 +1,15 @@
 ## Contents
 
 + [Getting Started](#getting-started)
-+ [Creating a notebook instance with R kernel in Google Cloud](#notebook-instance)
-+ [Creating Google Cloud Storage Buckets](#google-cloud-bucket)
-+ [Google Cloud Architecture](#google-cloud-architecture)
++ [Creating a JupyterLab with a custom R image](#creating-a-jupyterlab-with-a-custom-r-image)
++ [Creating Amazon S3 Buckets](#creating-amazon-s3-buckets)
++ [AWS Architecture](#aws-architecture)
 
 ## Getting Started
 Each learning submodule will be organized in an R Jupyter Notebook with step-by-step hands-on practice using R command-line tools to install necessary tools, obtain data, perform analyses, visualize, and interpret the results.  The notebook will be executed in the AWS environment. Therefore, the first step is to set up a notebook instance in AWS SageMaker.
 
 
-## Creating a JupyterLab with a custom image 
+## Creating a JupyterLab with a custom R image 
 
 Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateJupyterlabWithCustomImage.md) to run a JupyterLab with a custom Docker image. 
 
@@ -19,7 +19,7 @@ Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/
 
 
 
-## Clone from GitHub
+### Clone from GitHub
 
 Use the URL `https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud.git` to clone the repository from GitHub.
 
