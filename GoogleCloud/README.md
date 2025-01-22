@@ -1,8 +1,8 @@
 ## Contents
 
 + [Getting Started](#getting-started)
-+ [Creating a notebook instance with R kernel in Google Cloud](#notebook-instance)
-+ [Creating Google Cloud Storage Buckets](#google-cloud-bucket)
++ [Creating a notebook instance with R kernel in Google Cloud](#creating-a-notebook-instance-with-r-kernel-in-google-cloud)
++ [Creating Google Cloud Storage Buckets](#creating-google-cloud-storange-buckets)
 + [Google Cloud Architecture](#google-cloud-architecture)
 
 ## Getting Started
