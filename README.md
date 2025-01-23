@@ -44,7 +44,7 @@ The overall structure of the modules is explained below:
 
 ## Software Requirements
 
-This learning module requires some computational hardware and local environment setup.  The browser-based development environment is provided by Google. However, users need a Google email account, sufficient internet access, and a standard web browser (e.g., Chrome, Edge, Firefox; Chrome is recommended) to create a Cloud Virtual Machine for analysis.  It is recommended to execute the Jupyter Notebook using an R kernel (version > 4.1) on a standard machine with a minimum configuration of 4 vCPUs, 15 GB RAM, and 10 GB of HDD.
+This learning module requires some computational hardware and local environment setup.  The browser-based development environment is provided by Google and AWS. However, users need a Google email/Amazon account, sufficient internet access, and a standard web browser (e.g., Chrome, Edge, Firefox; Chrome is recommended) to create a Cloud Virtual Machine/SageMaker Notebook for analysis.  It is recommended to execute the Jupyter Notebook using an R kernel (version > 4.1) on a standard machine with a minimum configuration of 4 vCPUs, 15 GB RAM, and 10 GB of HDD.
 
 The following are the R and tool versions used during development:
 
