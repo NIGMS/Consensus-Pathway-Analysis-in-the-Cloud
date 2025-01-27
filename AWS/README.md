@@ -11,9 +11,9 @@ Each learning submodule will be organized in an R Jupyter Notebook with step-by-
 
 ## Creating a JupyterLab with a custom R image 
 
-Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateJupyterlabWithCustomImage.md) to run a JupyterLab with a custom Docker image. 
++ First, follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToPushImageToECR.md) to push the public Docker image `public.ecr.aws/v8e3m3v4/sagemaker-studio/r:latest` to a private repository in Amazon Elastic Container Registry (ECR).
 
-+ In step 4, use the URL `public.ecr.aws/v8e3m3v4/sagemaker-studio/r:latest` from Amazon Elastic Container Registry.
++ Next, using the private image URI in ECR (for step 4), follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateJupyterlabWithCustomImage.md) to run a JupyterLab with a custom Docker image.
 
 **Stop your JupyterLab at the end of your work to avoid incurring extra charges.**
 
