@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Create a conda environment
-conda create -n r-4-2-3 r-base=4.2.3 -y
+conda create -n r-4-3-3 r-base=4.3.3 -y
 
 # Consider addressing your conda initialization instead.
 source ~/.bashrc
 
 # Activate the Conda Environment
-conda activate r-4-2-3
+conda activate r-4-3-3
 
 conda install bioconda::bioconductor-geoquery  -y
 
@@ -41,6 +41,8 @@ conda install conda-forge::r-gsa -y
 
 conda install bioconda::bioconductor-safe -y
 
+conda install bioconda::bioconductor-annotationdbi -y
+
 conda install bioconda::bioconductor-keggdzpathwaysgeo -y 
 conda install r::r-digest -y
 conda install conda-forge::r-rngtools -y
@@ -60,7 +62,9 @@ conda install conda-forge::r-ggpubr -y
 
 conda install conda-forge::r-dplyr -y
 
+conda install -c conda-forge jupyterlab  -y
+
 R -e 'install.packages(c("IRkernel","gridExtra"), repos="http://cran.rstudio.com/")'
 
 # Install the kernel specification for Jupyter
-R -e 'IRkernel::installspec(name = "R-4-2-3", displayname = "R-4-2-3")' 
+R -e 'IRkernel::installspec(name = "R-4-3-3", displayname = "R-4-3-3")' 
