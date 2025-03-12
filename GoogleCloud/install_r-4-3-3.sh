@@ -37,6 +37,8 @@ conda install bioconda::bioconductor-reactomecontentservice4r -y
 
 conda install bioconda::bioconductor-fgsea -y
 
+conda install bioconda::bioconductor-deseq2 -y
+
 conda install conda-forge::r-gsa -y
 
 conda install bioconda::bioconductor-safe -y
@@ -47,8 +49,8 @@ conda install bioconda::bioconductor-keggdzpathwaysgeo -y
 conda install r::r-digest -y
 conda install conda-forge::r-rngtools -y
 conda install conda-forge::r-dorng -y
+
 R -e 'install.packages("BiocManager")'
-R -e 'BiocManager::install("PADOG")'
 
 conda install conda-forge::r-stringi -y
 conda install conda-forge::r-stringr -y
