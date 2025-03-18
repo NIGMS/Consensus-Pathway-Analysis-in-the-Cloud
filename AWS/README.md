@@ -9,15 +9,9 @@
 Each learning submodule will be organized in an R Jupyter Notebook with step-by-step hands-on practice using R command-line tools to install necessary tools, obtain data, perform analyses, visualize, and interpret the results.  The notebook will be executed in the AWS environment. Therefore, the first step is to set up a notebook instance in AWS SageMaker.
 
 
-## Creating a JupyterLab with a custom R image 
+### *Creating a notebook instance*
 
-+ First, follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToPushImageToECR.md) to push the public Docker image `public.ecr.aws/v8e3m3v4/sagemaker-studio/r:latest` to a private repository in Amazon Elastic Container Registry (ECR).
-
-+ Next, follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateJupyterlabWithCustomImage.md) to run a JupyterLab with a custom Docker image, using the private image URI in ECR created above for step 4.
-
-**Stop your JupyterLab at the end of your work to avoid incurring extra charges.**
-
-
+Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) to create a new notebook instance in Amazon SageMaker. Follow steps and be especially careful to enable idle shutdown as highlighted. For this module, in step 4 in the "Notebook instance type" tab, select ml.m5.xlarge from the dropdown box.
 
 ### Clone from GitHub
 

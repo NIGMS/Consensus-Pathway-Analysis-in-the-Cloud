@@ -34,11 +34,11 @@ The course content is organized in R Jupyter Notebooks.  Another way to view thi
 
 The overall structure of the modules is explained below:
 
-+ [**Submodule 01**](./Submodule01-ProcessingExpressionData.ipynb) describes how to obtain data from public repositories, process and save the expression matrix, and map probe IDs to gene symbols.
-+ [**Submodule 02**](./Submodule02-DifferentialAnalysis.ipynb) focuses on differential expression analysis using `limma`, `t-test`, `edgeR`, and `DESeq2`.
-+ [**Submodule 03**](./Submodule03-ProcessingPathwayInformation.ipynb) introduces common curated biological databases such as Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and REACTOME.
-+ [**Submodule 04**](./Submodule04-PathwayAnalysis.ipynb) aims at performing enrichment analysis using popular methods such as `ORA`, `FGSEA`, and `GSA`.
-+ [**Submodule 05**](./Submodule05-MetaAnalysis.ipynb) aims at performing meta-analysis using multiple datasets.
++ **Submodule 01:** describes how to obtain data from public repositories, process and save the expression matrix, and map probe IDs to gene symbols.
++ **Submodule 02:** focuses on differential expression analysis using `limma`, `t-test`, `edgeR`, and `DESeq2`.
++ **Submodule 03:** introduces common curated biological databases such as Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and REACTOME.
++ **Submodule 04:** aims at performing enrichment analysis using popular methods such as `ORA`, `FGSEA`, and `GSA`.
++ **Submodule 05:** aims at performing meta-analysis using multiple datasets.
 
 # ![](./images/Main-img.png)
 
