@@ -1,8 +1,8 @@
 ## Contents
 
 + [Getting Started](#getting-started)
-+ [Creating a notebook instance with R kernel in Google cloud](#notebook-instance)
-+ [Creating Google Cloud Storage Buckets](#google-cloud-bucket)
++ [Creating a notebook instance with R kernel in Google cloud](#creating-a-notebook-instance-with-r-kernel-in-google-cloud)
++ [Creating Google Cloud Storage Buckets](#creating-google-cloud-storage-buckets)
 + [Google Cloud Architecture](#google-cloud-architecture)
 
 ## Getting Started
@@ -23,17 +23,11 @@ Next you can copy and paste in the link of repository: `https://github.com/NIGMS
 
 ![](./images/SettingGC/Clone_Git.png)
 
-This should download our repository to Jupyterlab folder. All tutorial files for five sub-module are in Jupyter 
-format with *.ipynv* extension . Double click on each file to view the lab content and running the code. This will 
-open the Jupyter file in Jupyter notebook. From here you can run each section, or 'cell', of the code, one by one, 
-by pushing the 'Play' button on the above menu.
+This will download the repository to your JupyterLab folder. All tutorial files for the five submodules are in Jupyter format with a .ipynb extension. Double-click each file to view the lab content and run the code. This will open the Jupyter file in a Jupyter notebook. From here, you can run each section, or "cell", of the code, one by one, by pressing the "Play" button in the menu above.
 
 ![](./images/SettingGC/Run_Cell.png)
 
-Some 'cells' of code take longer for the computer to process than others. You will know a cell is running when a cell 
-has an asterisk next to it \[\*\]. When the cell finishes running, that asterisk will be replaced with a number which 
-represents the order that cell was run in. You can now explore the tutorials by running the code in each, from top to 
-bottom. Look at the 'workflows' section below for a short description of each tutorial.
+Some 'cells' of code take longer for the computer to process than others. You will know a cell is running when a cell has an asterisk next to it \[\*\]. When the cell finishes running, that asterisk will be replaced with a number which represents the order that cell was run in. You can now explore the tutorials by running the code in each, from top to bottom. Look at the 'workflows' section below for a short description of each tutorial.
 
 Jupyter is a powerful tool, with many useful features. For more information on how to use Jupyter, we recommend 
 searching for Jupyter tutorials and literature online.
