@@ -1,7 +1,7 @@
 ## Contents
 
 + [Getting Started](#getting-started)
-+ [Creating a notebook instance with R kernel in Google cloud](#creating-a-notebook-instance-with-r-kernel-in-google-cloud)
++ [Creating a notebook instance with R kernel in Google Cloud](#creating-a-notebook-instance-with-r-kernel-in-google-cloud)
 + [Creating Google Cloud Storage Buckets](#creating-google-cloud-storage-buckets)
 + [Google Cloud Architecture](#google-cloud-architecture)
 
@@ -9,7 +9,7 @@
 Each learning submodule will be organized in an R Jupyter notebook with step-by-step hands-on practice with R command line to install necessary tools, obtain data, perform analyses, visualize and interpret the results. The notebook will be executed in the Google Cloud environment. Therefore, the first step is to set up a notebook instance in VertexAI.
 
 
-## Creating a notebook instance with R kernel in Google cloud
+## Creating a notebook instance with R kernel in Google Cloud
 
 Follow the steps highlighted in part two (2. Spin up Instance from a Container) of [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md) to create a new notebook instance in Vertex AI. Follow steps 1-8, in step 5 select region us-east4 (Northern Virgina) and be especially careful to use custom container `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/nigms-vertex-r` in step 6 under the Docker container image prompt. In step 7 under the Machine type tab, select n1-standard-4 from the dropdown box. In step 8, be carefull to **Enable Idle Shutdown**. After creating the notebook you can click on **OPEN JUPYTERLAB**.
 
