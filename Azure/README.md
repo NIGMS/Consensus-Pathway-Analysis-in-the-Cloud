@@ -15,9 +15,6 @@ Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/
 
 The Machine Learning Studio Jupyter Notebooks already have an R kernel available which we will use and install our packages to.
 
-
-Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAzureMLNotebooks.md) to create a Azure Machine Learning workspace and a new notebook instance that workspace. Follow steps 1-6, when creating your instance. Idle shutdown should automatically be enabled for 1 hour. You have two options to interact with these tutorials:
-
 Option 1 uses the 'Notebook' tab in the left-hand menu to view an Azure UI version of interacting with notebooks. If you are using option 1 after navigating to **Notebooks**, start your instance, and then you can run your notebooks.
 
 Option 2 allows you to enter in a JupyterLab setting to interact with notebooks. If you are using option 2 after creating the instance to run the notebooks under 'Compute', you can click **Start**. Then under 'Applications' click **JUPYTERLAB**.
@@ -110,7 +107,7 @@ system("az storage blob download --account-name  --container-name data --name GS
 
 You can learn more about `az storage` commands by reading the article [here](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-cli).
 
-## Azure Architecture
+## Architecture Diagram
 
 # ![](./images/Intro/architecture.png)
 The figure above shows the architecture of the learning module with Azure infrastructure. First, we will create a Machine Learning Studio Jupyter Notebook with the premade R kernel. The code and instructions for each submodule are presented in a separate Jupyter Notebook.
