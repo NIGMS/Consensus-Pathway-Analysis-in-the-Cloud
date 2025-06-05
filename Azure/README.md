@@ -26,18 +26,20 @@ Option 2 allows you to enter in a JupyterLab setting to interact with notebooks.
 
 Now that you have successfully created your virtual machine, you can use either the Azure Notebook UI screen or Jupyterlab screen to interact with the tutorials. The next step is to import the notebooks and start the course. 
 
-This can be done in either two ways:
+This can be done in two ways:
 
 **Azure Notebook UI Setting**
+
 Open the terminal, type in `git clone https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud.git`, then hit enter.
 
 ![](./images/Intro/Azure_clone_repo.png)
 
 **JupyterLab Setting**
-Selecting the __Git__ from the top menu in Jupyterlab, and choosing the __Clone a Repository__ 
-option. Next, you can copy and paste in the link of the repository: `https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud.git` and click __Clone__.
 
-![](./images/Intro/clone.png)
+On the launcher, select **Terminal**. Next, you can copy and paste in the link of the repository: `git clone https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud.git`. Then hit enter.
+
+
+![](./images/Intro/launcher.png)
 
 This will download the repository to your JupyterLab folder. All tutorial files for the five submodules are in Jupyter format with a .ipynb extension. Double-click each file to view its content and select your kernel in the top left corner to run the notebook in a specific conda environment (e.g., R, Python, etc.). From here, you can run each section, or "cell", of the code, one by one, by pressing the "Play" button next to the cell for the Azure Notebook UI or above for the JupyterLab setting.
 
@@ -120,3 +122,7 @@ for preprocessing and then save the processed data to a local file in the notebo
 of the submodule 01 will be used as the input for all other submodules. The outputs of the submodules 02, 03, and 04 will be saved to the
 local repository in Machine Learning Studio Notebooks, and the code to copy them to the user's cloud storage is also included.
 <!-- #endregion -->
+
+```python
+
+```
