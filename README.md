@@ -34,17 +34,17 @@ The course content is organized in R Jupyter Notebooks.  Another way to view thi
 
 The overall structure of the modules is explained below:
 
-+ **Submodule 01:** describes how to obtain data from public repositories, process and save the expression matrix, and map probe IDs to gene symbols.
-+ **Submodule 02:** focuses on differential expression analysis using `limma`, `t-test`, `edgeR`, and `DESeq2`.
-+ **Submodule 03:** introduces common curated biological databases such as Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and REACTOME.
-+ **Submodule 04:** aims at performing enrichment analysis using popular methods such as `ORA`, `FGSEA`, and `GSA`.
-+ **Submodule 05:** aims at performing meta-analysis using multiple datasets.
++ **Submodule 01:** Describes how to obtain data from public repositories, process and save the expression matrix, and map probe IDs to gene symbols.
++ **Submodule 02:** Focuses on differential expression analysis using `limma`, `t-test`, `edgeR`, and `DESeq2`.
++ **Submodule 03:** Introduces common curated biological databases such as Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and REACTOME.
++ **Submodule 04:** Aims at performing enrichment analysis using popular methods such as `ORA`, `FGSEA`, and `GSA`.
++ **Submodule 05:** Aims at performing meta-analysis using multiple datasets.
 
 # ![](./images/Main-img.png)
 
 ## Software Requirements
 
-This learning module requires some computational hardware and local environment setup.  The browser-based development environment is provided by Google and AWS. However, users need a Google email/Amazon account, sufficient internet access, and a standard web browser (e.g., Chrome, Edge, Firefox; Chrome is recommended) to create a Cloud Virtual Machine/SageMaker Notebook for analysis.  It is recommended to execute the Jupyter Notebook using an R kernel (version > 4.1) on a standard machine with a minimum configuration of 4 vCPUs, 15 GB RAM, and 10 GB of HDD.
+This learning module requires some computational hardware and local environment setup.  The browser-based development environment is provided by Google, AWS, and Azure. However, users need a Google email/Amazon account/Azure subscription, sufficient internet access, and a standard web browser (e.g., Chrome, Edge, Firefox; Chrome is recommended) to create a Cloud Virtual Machine/SageMaker Notebook/Machine Learning workpace for analysis.  It is recommended to execute the Jupyter Notebook using an R kernel (version > 4.1) on a standard machine with a minimum configuration of 4 vCPUs, 15 GB RAM, and 10 GB of HDD.
 
 The following are the R and tool versions used during development:
 
@@ -106,6 +106,7 @@ Some common errors include:
 - Errors creating a bucket, possibly due to an existing bucket with the same name. Choose a unique bucket name.
 - Package installation issues. Follow the instructions in the documentation.
 - Errors due to capitalization or spelling mistakes.
+- Errors with Azure cli commands, ensure you have run `az login` before running them, and follow the prompted output to authenticate.
 
 
 ## Funding
