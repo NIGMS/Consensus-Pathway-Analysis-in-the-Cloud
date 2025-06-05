@@ -30,7 +30,7 @@ The course is structured in five submodules, allowing us to:
 
 ## Overview
 
-The course content is organized in R Jupyter Notebooks.  Another way to view this module is as a Jupyter Book, a package that combines individual Jupyter Notebooks into a web interface for better navigation. This is only for viewing the notebooks, not running them. Details on installing the tools and formatting the content can be found at: https://jupyterbook.org/en/stable/intro.html. The course content is located in the GitHub repository of Dr. Tin Nguyen's lab: https://github.com/tinnlab/NOSI-Google-Cloud-Training.
+The course content is organized in R Jupyter Notebooks. The module is available for AWS, Azure, and Google Cloud. Navigate to each directory in this repository to find the Jupyter notebooks and cloud-specific READMEs for each cloud provider. 
 
 The overall structure of the modules is explained below:
 
@@ -44,7 +44,7 @@ The overall structure of the modules is explained below:
 
 ## Software Requirements
 
-This learning module requires some computational hardware and local environment setup.  The browser-based development environment is provided by Google, AWS, and Azure. However, users need a Google email/Amazon account/Azure subscription, sufficient internet access, and a standard web browser (e.g., Chrome, Edge, Firefox; Chrome is recommended) to create a Cloud Virtual Machine/SageMaker Notebook/Machine Learning workpace for analysis.  It is recommended to execute the Jupyter Notebook using an R kernel (version > 4.1) on a standard machine with a minimum configuration of 4 vCPUs, 15 GB RAM, and 10 GB of HDD.
+This learning module requires some computational hardware and local environment setup. The browser-based development environment is provided by Google, AWS, and Azure. However, users need a Google email/Amazon account/Azure subscription, sufficient internet access, and a standard web browser (e.g., Chrome, Edge, Firefox; Chrome is recommended) to create a Cloud Virtual Machine/SageMaker Notebook/Machine Learning workpace for analysis.  It is recommended to execute the Jupyter Notebook using an R kernel (version > 4.1) on a standard machine with a minimum configuration of 4 vCPUs, 15 GB RAM, and 10 GB of HDD.
 
 The following are the R and tool versions used during development:
 
