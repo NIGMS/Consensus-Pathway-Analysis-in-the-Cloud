@@ -1,7 +1,10 @@
-![course card](images/UNR-course-card.png)
-
 # Consensus Pathway Analysis using Cloud Infrastructure
 **Authors: Ha Nguyen, Van-Dung Pham, Hung Nguyen, Bang Tran, Nicole Schrad, Juli Petereit, and Tin Nguyen**
+
+<br>
+<p align="center">
+    <img src="images/UNR-course-card.png" width="400" />
+</p>
 
 ## Contents
 
