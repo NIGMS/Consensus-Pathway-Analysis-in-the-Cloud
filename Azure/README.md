@@ -6,18 +6,18 @@
 + [Azure Architecture](#azure-architecture)
 
 ## Getting Started
-Each learning submodule will be organized in an R Jupyter notebook with step-by-step hands-on practice with R command line to install necessary tools, obtain data, perform analyses, visualize and interpret the results. The notebook will be executed in the Azure environment. Therefore, the first step is to set up a notebook instance in Machine Learning Studio.
+Each learning submodule will be organized in an R Jupyter notebook with step-by-step hands-on practice with the R command line to install necessary tools, obtain data, perform analyses, visualize, and interpret the results. The notebook will be executed in the Azure environment. Therefore, the first step is to set up a notebook instance within Machine Learning Studio.
 
 <!-- #region -->
 ## Creating a notebook instance with R kernel in Azure
 
-Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAzureMLNotebooks.md) to create a new notebook instance in Azure Machine Learning Studio. Follow steps and be especially careful to enable idle shutdown as highlighted. For this module, in step 6 in the "Notebook instance type" tab, select 'Standard_DS3_v2' from the dropdown box.
+Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAzureMLNotebooks.md) to create a new notebook instance in Azure Machine Learning Studio. Follow the steps and be especially careful to enable idle shutdown as highlighted. For this module, in step 6 in the "Notebook instance type" tab, select 'Standard_DS3_v2' from the dropdown box.
 
-The Machine Learning Studio Jupyter Notebooks already have an R kernel available which we will use and install our packages to.
+The Machine Learning Studio Jupyter Notebooks already have an R kernel available, which we will use and install our packages to.
 
 Option 1 uses the 'Notebook' tab in the left-hand menu to view an Azure UI version of interacting with notebooks. If you are using option 1 after navigating to **Notebooks**, start your instance, and then you can run your notebooks.
 
-Option 2 allows you to enter in a JupyterLab setting to interact with notebooks. If you are using option 2 after creating the instance to run the notebooks under 'Compute', you can click **Start**. Then under 'Applications' click **JUPYTERLAB**.
+Option 2 allows you to enter a JupyterLab setting to interact with notebooks. If you are using option 2 after creating the instance to run the notebooks under 'Compute', you can click **Start**. Then under 'Applications' click **JUPYTERLAB**.
 
 ### Downloading and Running Tutorial Files
 
@@ -59,15 +59,15 @@ When you are finished running code, you should turn off your notebook by turning
 ![](./images/Intro/stop_instance.png)
 
 ## Creating Azure Blob Storage
-In this section, we will describe the steps to create Azure Blob Storage to store data generated during analysis.  The storage can be created via GUI or using the command line.
+In this section, we will describe the steps to create Azure Blob Storage to store data generated during analysis.  The storage can be created via the GUI or using the command line.
 
-Azure Storage is comprised of three parts: accounts, containers, and blobs, as seen in the image below. Accounts contain containers which act as folders. Containers hold files, aka blobs and folders or subfolders.
+Azure Storage is comprised of three parts: accounts, containers, and blobs, as seen in the image below. Accounts contain containers, which act as folders. Containers hold files, aka blobs and folders or subfolders.
 
 <img src="./images/Module1/azure_blob_diagram.png" alt="Alt Text" width="300" height="200">
 
 When you create the Azure Machine Learning service, it will automatically create a storage account under the name of the workspace you created before. This allows you to either use the previously made storage account or create a new one. Instructions for both options are outlined below.
 
-**Option 1:Using a Premade Storage Accounts**
+**Option 1:Using a Premade Storage Account**
 1. On the webpage of your Azure account, find and select `Azure Storage Accounts`.
 2. Find and click the storage account that is labeled the same as your Machine learning service.
 ![|](./images/Module1/Data_CloudStorageAccount.png)
@@ -82,7 +82,7 @@ When you create the Azure Machine Learning service, it will automatically create
 
 **Option 2: Creating a New Storage Account**
 1. On the webpage of your Azure account, find and select `Azure Storage Accounts`.
-2. Select `CREATE` button to create a new storage account.
+2. Select the `CREATE` button to create a new storage account.
 3. Enter the information such as Subscription, resource group, and storage account name. Make sure the storage name is unique.
 4. For Primary Service, select 'Azure Blob Storage'.
 5. For Performance, select 'Standard'.
@@ -111,7 +111,8 @@ You can learn more about `az storage` commands by reading the article [here](htt
 
 ## Architecture Diagram
 
-# ![](./images/Intro/architecture.png)
+![](./images/Intro/architecture.png)
+
 The figure above shows the architecture of the learning module with Azure infrastructure. First, we will create a Machine Learning Studio Jupyter Notebook with the premade R kernel. The code and instructions for each submodule are presented in a separate Jupyter Notebook.
 The user can either upload the Notebooks to the Machine Learning Studio Notebooks or clone from the project repository. Then, users can execute 
 the code directly in the Notebook. In our learning course, the submodule 01 will download data from the public repository (e.g., the GEO database)
@@ -120,6 +121,3 @@ of the submodule 01 will be used as the input for all other submodules. The outp
 local repository in Machine Learning Studio Notebooks, and the code to copy them to the user's cloud storage is also included.
 <!-- #endregion -->
 
-```python
-
-```
