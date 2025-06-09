@@ -10,7 +10,7 @@ Each learning submodule will be organized in an R Jupyter Notebook with step-by-
 
 ### *Creating a notebook instance*
 
-Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) to create a new notebook instance in Amazon SageMaker. Follow the steps and be especially careful to enable idle shutdown as highlighted. For this module, in step 4 in the "Notebook instance type" tab, select **ml.m5.xlarge** from the dropdown box.
+Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/SageMakerNotebook%26StudioSetup.md) to create a new notebook instance in Amazon SageMaker. Follow the steps and be especially careful to enable idle shutdown as highlighted. For this module, in step 4 in the "Notebook instance type" tab, select **ml.m5.xlarge** from the dropdown box.
 
 ### Clone from GitHub
 
