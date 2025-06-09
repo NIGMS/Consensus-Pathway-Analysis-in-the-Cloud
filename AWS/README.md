@@ -1,21 +1,20 @@
 ## Contents
 
 + [Getting Started](#getting-started)
-+ [Creating a JupyterLab with a custom R image](#creating-a-jupyterlab-with-a-custom-r-image)
 + [Creating Amazon S3 Buckets](#creating-amazon-s3-buckets)
 + [AWS Architecture](#aws-architecture)
 
 ## Getting Started
-Each learning submodule will be organized in an R Jupyter Notebook with step-by-step hands-on practice using R command-line tools to install necessary tools, obtain data, perform analyses, visualize, and interpret the results.  The notebook will be executed in the AWS environment. Therefore, the first step is to set up a notebook instance in AWS SageMaker.
+Each learning submodule will be organized in an R Jupyter Notebook with step-by-step hands-on practice using R command-line tools to install necessary tools, obtain data, perform analyses, visualize, and interpret the results. The notebook will be executed in the AWS environment. Therefore, the first step is to set up a notebook instance in AWS SageMaker.
 
 
 ### *Creating a notebook instance*
 
-Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) to create a new notebook instance in Amazon SageMaker. Follow steps and be especially careful to enable idle shutdown as highlighted. For this module, in step 4 in the "Notebook instance type" tab, select ml.m5.xlarge from the dropdown box.
+Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/SageMakerNotebook%26StudioSetup.md) to create a new notebook instance in Amazon SageMaker. Follow the steps and be especially careful to enable idle shutdown as highlighted. For this module, in step 4 in the "Notebook instance type" tab, select **ml.m5.xlarge** from the dropdown box.
 
 ### Clone from GitHub
 
-Use the URL `https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud.git` to clone the repository from GitHub.
+Use the URL `https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud.git` to clone the repository from GitHub. Navigate to the **AWS** directory to view/run the notebook files tailored to AWS.
 
 # ![](./images/Intro/clone.png)
 
@@ -40,7 +39,7 @@ To create an S3 bucket using the command line, use the AWS CLI command `aws s3 m
 aws s3 mb s3://BUCKET_NAME
 ```
 
-where `BUCKET_NAME` is the user-defined name.  A success message is returned if the request is successful. You can add optional parameters for greater control. These parameters are typically specified using options like `--<parameter_name> <value>`.
+where `BUCKET_NAME` is the unique user-defined name.  A success message is returned if the request is successful. You can add optional parameters for greater control. These parameters are typically specified using options like `--<parameter_name> <value>`.
 
 Some common options include:
 
