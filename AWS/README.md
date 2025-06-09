@@ -1,7 +1,6 @@
 ## Contents
 
 + [Getting Started](#getting-started)
-+ [Creating a JupyterLab with a custom R image](#creating-a-jupyterlab-with-a-custom-r-image)
 + [Creating Amazon S3 Buckets](#creating-amazon-s3-buckets)
 + [AWS Architecture](#aws-architecture)
 
