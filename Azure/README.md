@@ -109,7 +109,7 @@ system("az storage blob download --account-name  --container-name data --name GS
 
 You can learn more about `az storage` commands by reading the article [here](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-cli).
 
-## Architecture Diagram
+## Azure Architecture
 
 ![](./images/Intro/architecture.png)
 
