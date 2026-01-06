@@ -58,6 +58,20 @@ When you are finished running code, you should turn off your notebook by turning
 
 ![](./images/Intro/stop_instance.png)
 
+### R Kernel Troubleshooting (Optional)
+
+If you encounter issues selecting or running the **R kernel** in Jupyter (for example, the R kernel is missing or fails to start), you can install and register the R kernel using the provided helper script.
+
+To do this, open a **Terminal** within your Azure environment and run the following commands:
+
+```bash
+# Make the script executable (run once)
+chmod +x install_r_irkernel.sh
+
+# Run the installation script
+./install_r_irkernel.sh
+```
+
 ## Creating Azure Blob Storage
 In this section, we will describe the steps to create Azure Blob Storage to store data generated during analysis.  The storage can be created via the GUI or using the command line.
 
